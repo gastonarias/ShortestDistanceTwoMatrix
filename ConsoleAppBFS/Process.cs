@@ -14,7 +14,7 @@ namespace ConsoleAppBFS
             Qitem source = new Qitem(0, 0, 0);
             //Limtes del array
             int N = arr.GetLength(0);
-            int M = arr.GetLength(0);
+            int M = arr.GetLength(1);
 
             for (int i = 0; i < N; i++)
             {
